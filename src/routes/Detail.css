@@ -1,0 +1,17 @@
+.movie-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.movie-title {
+    font-size: 30px;
+}
+
+.movie-title-content {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.movie-poster {
+    text-align: center;
+}

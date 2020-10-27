@@ -32,20 +32,20 @@ class Home extends Component {
 						<span className="loader__text">Loading...</span>
 					</div>
 				) : (
-					<div className="movies">
-						{movies.map((movie) => {
-              return <Movie 
-                id={movie.id} 
-                key={movie.id} 
-                year={movie.year} 
-                title={movie.title} 
-                summary={movie.summary} 
-                poster={movie.medium_cover_image}
-                genres={movie.genres} 
-                />;
-						})}
-					</div>
-				)}
+						<div className="movies">
+							{movies.map((movie) => {
+								return <Movie
+									id={movie.id}
+									key={movie.id}
+									year={movie.year}
+									title={movie.title}
+									summary={movie.summary}
+									poster={movie.medium_cover_image}
+									genres={movie.genres}
+								/>
+							})}
+						</div>
+					)}
 			</section>
 		);
 	}
